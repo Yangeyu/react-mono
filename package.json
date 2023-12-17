@@ -1,0 +1,14 @@
+{
+  "name": "monorepo-pnpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd ./packages/app && pnpm dev",
+    "serve": "cd ./packages/service && deno task dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
