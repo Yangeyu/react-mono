@@ -5,6 +5,7 @@
     "https://deno.land/x/ulid/mod.ts": "https://deno.land/x/ulid@v0.3.0/mod.ts"
   },
   "remote": {
+    "https://cdn.sheetjs.com/xlsx-0.20.1/package/xlsx.mjs": "8d81e8a2f765d31de059058afb2a7b71de867a349cae28dcd1533a48876f2962",
     "https://deno.land/x/hono@v3.10.2/client/client.ts": "ff340f58041203879972dd368b011ed130c66914f789826610869a90603406bf",
     "https://deno.land/x/hono@v3.10.2/client/index.ts": "3ff4cf246f3543f827a85a2c84d66a025ac350ee927613629bda47e854bfb7ba",
     "https://deno.land/x/hono@v3.10.2/client/utils.ts": "053273c002963b549d38268a1b423ac8ca211a8028bdab1ed0b781a62aa5e661",

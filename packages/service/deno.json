@@ -8,6 +8,7 @@
     "zod": "https://deno.land/x/zod@v3.22.4/mod.ts",
     "ulid": "https://deno.land/x/ulid@v0.3.0/mod.ts",
     "hono": "https://deno.land/x/hono@v3.11.8/mod.ts",
+    "sheetjs": "https://cdn.sheetjs.com/xlsx-0.20.1/package/xlsx.mjs",
   },
   "compilerOptions": {
     "lib": [
