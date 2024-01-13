@@ -132,7 +132,9 @@ demoApp.post("/get-sheet-list", async (c: Context) => {
   return c.json(formatSuccessResBody({
     total: sheetList.length,
     list: sheetList,
-    count: Array.from(sheetmap).map(item => ({name: item[0], value: item[1]}))
+    count: Array.from(sheetmap)
+    .toSorted((a, b) => a[0] - b[0])
+    .map(item => ({name: item[0], value: item[1]}))
   }));
 });
 

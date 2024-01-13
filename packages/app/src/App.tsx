@@ -22,12 +22,20 @@ function App() {
       setPieData(asyncData)
     })
 
-    setTimeout(() => {
-      const res = asyncData.map(item => Object.assign({}, item, { value: item.value * Math.random()}))
-      // const res = asyncData.slice(-3)
-      
-      setPieData(res)
-    }, 1000)
+    window.fetch('http://localhost:3333/demo/get-sheet-list', { method: 'post' })
+      .then(res => res.json())
+      .then((res: any) => {
+        console.log(res);
+        setPieData(res.data.count)
+      })
+
+
+    // setTimeout(() => {
+    //   const res = asyncData.map(item => Object.assign({}, item, { value: item.value * Math.random()}))
+    //   // const res = asyncData.slice(-3)
+    //   
+    //   setPieData(res)
+    // }, 1000)
   }, [])
 
   return (
