@@ -19,4 +19,10 @@
   background-image: url('https://w.wallhaven.cc/full/85/wallhaven-858lz1.png');
 }
 
+.text-main {
+  text-align: justify;
+  margin: 16px 0;
+  text-indent: 2ch;
+}
+
 
